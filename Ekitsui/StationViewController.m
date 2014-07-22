@@ -181,7 +181,7 @@
 //        return nil;
     }
     
-    UITableView* _tableView = nil;
+    //UITableView* _tableView = nil;
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
 

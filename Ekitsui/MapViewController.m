@@ -148,7 +148,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager
        didFailWithError:(NSError *)error{
-    NSLog([error localizedDescription]);
+//    NSLog([error localizedDescription]);
 }
 
 
