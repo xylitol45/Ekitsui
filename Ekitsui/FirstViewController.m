@@ -71,23 +71,13 @@
                                  
                                  NSLog(@"log %@", [_dict2 objectForKey:@"created_at"]);
                                  NSLog(@"log %@", [_dict2 objectForKey:@"text"]);
-                                 
-                                 
                              }
-                             
-                             
                          }
-                         
-                         NSLog(@"TEST");
-                         
-                         
                      }];
                  }
              }
          }];
     }
-    
-    
 }
 
 - (void)viewDidLoad
