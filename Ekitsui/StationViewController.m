@@ -254,7 +254,8 @@
     UITableViewCell *cell;
     if ([segue.identifier isEqualToString:@"Next HistoryViewController"]) {
         return;
-    } else
+    }
+    
     if ([segue.identifier isEqualToString:@"Next TwitterViewController"]) {
         NSIndexPath *indexPath = [self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
         
@@ -263,14 +264,12 @@
         [self.searchDisplayController.searchResultsTableView deselectRowAtIndexPath:indexPath animated:YES];
         
     } else {
-    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-    
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         cell = [self.tableView cellForRowAtIndexPath:indexPath];
     }
+    
     // 移動先が持つラベルに選択セルの文字列を設定
-    
     TwitterViewController *_viewController = [segue destinationViewController];
-    
     _viewController.receiveString = cell.textLabel.text;
     
 }
