@@ -276,8 +276,7 @@
 
 //TableViewのインデックスリストに表示させたい文字列を設定する。
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
-{
-    
+{    
     NSLog(@"sectionIndexTitlesForTableView");
     
     //インスタンス変数のstrArrayを設定している。
