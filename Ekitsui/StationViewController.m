@@ -262,8 +262,6 @@
         
         [self.searchDisplayController.searchResultsTableView deselectRowAtIndexPath:indexPath animated:YES];
         
-        
-        
     } else {
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     
