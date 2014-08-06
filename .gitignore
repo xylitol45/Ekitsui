@@ -7,4 +7,5 @@ build/*
 !*.xcodeproj/project.pbxproj
 !*.xcworkspace/contents.xcworkspacedata
 
+UserInterfaceState.xcuserstate
 
