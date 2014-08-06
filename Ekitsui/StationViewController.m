@@ -252,6 +252,9 @@
     
     // どのセクションの何行目が選択されたかでセルを取得
     UITableViewCell *cell;
+    if ([segue.identifier isEqualToString:@"Next HistoryViewController"]) {
+        return;
+    } else
     if ([segue.identifier isEqualToString:@"Next TwitterViewController"]) {
         NSIndexPath *indexPath = [self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
         
