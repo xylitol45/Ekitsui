@@ -43,7 +43,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UWZ-o2-hdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2187" y="-281"/>
+            <point key="canvasLocation" x="2095" y="-353"/>
         </scene>
         <!--Station View Controller - 駅一覧-->
         <scene sceneID="eEa-tG-RPd">
@@ -119,7 +119,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1555" y="-195"/>
+            <point key="canvasLocation" x="1631" y="361"/>
         </scene>
         <!--Twitter View Controller - Twitter-->
         <scene sceneID="bAv-b0-fsB">
@@ -159,7 +159,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eoi-Va-iC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2623" y="851"/>
+            <point key="canvasLocation" x="2535" y="427"/>
         </scene>
         <!--Navigation Controller - 駅一覧-->
         <scene sceneID="4Wa-Ga-wI2">
@@ -180,48 +180,9 @@
             </objects>
             <point key="canvasLocation" x="1027" y="-43"/>
         </scene>
-        <!--View Controller - 設定-->
-        <scene sceneID="BeQ-Rl-qhH">
-            <objects>
-                <viewController id="yE9-9x-ML6" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Oiu-Eh-ve9"/>
-                        <viewControllerLayoutGuide type="bottom" id="tHe-ba-nvT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rf2-U2-Ctg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="設定" id="bMy-eB-IGR"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fs7-qS-y4Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1982" y="1862"/>
-        </scene>
-        <!--Navigation Controller - 設定-->
-        <scene sceneID="Iq6-hb-Hoo">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IUw-Bd-eGP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="設定" image="settings-02-icon_32x32px.png" id="Oqq-5g-Czs"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="u8f-Lc-A7n">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="yE9-9x-ML6" kind="relationship" relationship="rootViewController" id="KYj-8e-Kjy"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gvR-GU-D7E" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1416" y="934"/>
-        </scene>
     </scenes>
     <resources>
         <image name="search-icon_32x32px.png" width="32" height="32"/>
-        <image name="settings-02-icon_32x32px.png" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
