@@ -97,6 +97,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="駅一覧" id="Yav-zX-Spa">
                         <barButtonItem key="rightBarButtonItem" title="履歴" id="wNN-cz-otI">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="MnS-fr-iW0" kind="push" identifier="Next HistoryViewController" id="Maf-rK-0Uk"/>
                             </connections>
@@ -171,6 +172,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

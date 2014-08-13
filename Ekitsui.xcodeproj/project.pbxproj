@@ -31,7 +31,8 @@
 		076D2D4F18351D6F00271DDC /* database-icon_32x32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 076D2D4E18351D6F00271DDC /* database-icon_32x32px.png */; };
 		076D2D5118351F1900271DDC /* settings-02-icon_32x32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 076D2D5018351F1900271DDC /* settings-02-icon_32x32px.png */; };
 		07F87956182BE1BC00307148 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F87955182BE1BC00307148 /* MapViewController.m */; };
-		267F9EDC182CC00B00A4AF38 /* Station.plist in Resources */ = {isa = PBXBuildFile; fileRef = 267F9EDB182CC00B00A4AF38 /* Station.plist */; };
+		2662CA1F199B725C0021C1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A15E031828AB0700A8B098 /* Main.storyboard */; };
+		2662CA21199B72F70021C1D8 /* Station.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2662CA20199B72F70021C1D8 /* Station.plist */; };
 		267F9EDF182CD57C00A4AF38 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F9EDE182CD57C00A4AF38 /* CustomAnnotation.m */; };
 		267F9EE2182CF19A00A4AF38 /* StationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F9EE1182CF19A00A4AF38 /* StationViewController.m */; };
 		26A15DF21828AB0700A8B098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A15DF11828AB0700A8B098 /* Foundation.framework */; };
@@ -40,7 +41,6 @@
 		26A15DFC1828AB0700A8B098 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26A15DFA1828AB0700A8B098 /* InfoPlist.strings */; };
 		26A15DFE1828AB0700A8B098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A15DFD1828AB0700A8B098 /* main.m */; };
 		26A15E021828AB0700A8B098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A15E011828AB0700A8B098 /* AppDelegate.m */; };
-		26A15E051828AB0700A8B098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A15E031828AB0700A8B098 /* Main.storyboard */; };
 		26A15E081828AB0700A8B098 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A15E071828AB0700A8B098 /* FirstViewController.m */; };
 		26A15E0B1828AB0700A8B098 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A15E0A1828AB0700A8B098 /* SecondViewController.m */; };
 		26A15E0D1828AB0700A8B098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A15E0C1828AB0700A8B098 /* Images.xcassets */; };
@@ -119,7 +119,7 @@
 		076D2D5018351F1900271DDC /* settings-02-icon_32x32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-02-icon_32x32px.png"; sourceTree = "<group>"; };
 		07F87954182BE1BC00307148 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		07F87955182BE1BC00307148 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		267F9EDB182CC00B00A4AF38 /* Station.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Station.plist; sourceTree = "<group>"; };
+		2662CA20199B72F70021C1D8 /* Station.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Station.plist; sourceTree = "<group>"; };
 		267F9EDD182CD57C00A4AF38 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
 		267F9EDE182CD57C00A4AF38 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
 		267F9EE0182CF19A00A4AF38 /* StationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationViewController.h; sourceTree = "<group>"; };
@@ -159,9 +159,9 @@
 				074FF5AE182FB93400E032D0 /* ImageIO.framework in Frameworks */,
 				07041D84182A9F5800DFCB64 /* MapKit.framework in Frameworks */,
 				07041D82182A9F4C00DFCB64 /* CoreLocation.framework in Frameworks */,
+				26A15DF41828AB0700A8B098 /* CoreGraphics.framework in Frameworks */,
 				26A15E2C1828BDCC00A8B098 /* Accounts.framework in Frameworks */,
 				26A15E2A1828AB9E00A8B098 /* Social.framework in Frameworks */,
-				26A15DF41828AB0700A8B098 /* CoreGraphics.framework in Frameworks */,
 				26A15DF61828AB0700A8B098 /* UIKit.framework in Frameworks */,
 				26A15DF21828AB0700A8B098 /* Foundation.framework in Frameworks */,
 			);
@@ -282,6 +282,7 @@
 		26A15DF81828AB0700A8B098 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2662CA20199B72F70021C1D8 /* Station.plist */,
 				076D2D5018351F1900271DDC /* settings-02-icon_32x32px.png */,
 				076D2D4C18351CBB00271DDC /* search-icon_32x32px.png */,
 				076D2D4E18351D6F00271DDC /* database-icon_32x32px.png */,
@@ -291,7 +292,6 @@
 				26A15DFA1828AB0700A8B098 /* InfoPlist.strings */,
 				26A15DFD1828AB0700A8B098 /* main.m */,
 				26A15DFF1828AB0700A8B098 /* Ekitsui-Prefix.pch */,
-				267F9EDB182CC00B00A4AF38 /* Station.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -394,14 +394,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2662CA1F199B725C0021C1D8 /* Main.storyboard in Resources */,
 				074FF5B0182FBDE900E032D0 /* placeholder.gif in Resources */,
 				076D2D5118351F1900271DDC /* settings-02-icon_32x32px.png in Resources */,
 				076D2D4B18351C8C00271DDC /* map-icon_32x32px.png in Resources */,
+				2662CA21199B72F70021C1D8 /* Station.plist in Resources */,
 				26A15E0D1828AB0700A8B098 /* Images.xcassets in Resources */,
 				076D2D4F18351D6F00271DDC /* database-icon_32x32px.png in Resources */,
-				267F9EDC182CC00B00A4AF38 /* Station.plist in Resources */,
 				26A15DFC1828AB0700A8B098 /* InfoPlist.strings in Resources */,
-				26A15E051828AB0700A8B098 /* Main.storyboard in Resources */,
 				076D2D4D18351CBB00271DDC /* search-icon_32x32px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +511,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -552,6 +553,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ekitsui/Ekitsui-Prefix.pch";
@@ -574,16 +576,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/yoshimura/Google\\ ドライブ/Ekitsui",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ekitsui/Ekitsui-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Ekitsui/Ekitsui-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Ekitsui;
-				PROVISIONING_PROFILE = "E8EA56DE-A0AB-431E-98F4-5FF5C3047811";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -595,16 +594,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/yoshimura/Google\\ ドライブ/Ekitsui",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ekitsui/Ekitsui-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Ekitsui/Ekitsui-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Ekitsui;
-				PROVISIONING_PROFILE = "E8EA56DE-A0AB-431E-98F4-5FF5C3047811";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -612,7 +608,6 @@
 		26A15E271828AB0700A8B098 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestTwitter.app/TestTwitter";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -635,7 +630,6 @@
 		26A15E281828AB0700A8B098 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestTwitter.app/TestTwitter";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
