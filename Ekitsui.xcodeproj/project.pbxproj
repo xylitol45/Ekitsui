@@ -54,6 +54,18 @@
 		26A15E2F1828D81000A8B098 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A15E2E1828D81000A8B098 /* TwitterViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		26D4D725199B621D008BE1C2 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXContainerItemProxy section */
 		26A15E171828AB0700A8B098 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -314,6 +326,7 @@
 				26A15DEC1828AB0700A8B098 /* Resources */,
 			);
 			buildRules = (
+				26D4D725199B621D008BE1C2 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -570,7 +583,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Ekitsui/Ekitsui-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Ekitsui;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "E8EA56DE-A0AB-431E-98F4-5FF5C3047811";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -591,7 +604,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Ekitsui/Ekitsui-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Ekitsui;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "E8EA56DE-A0AB-431E-98F4-5FF5C3047811";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
