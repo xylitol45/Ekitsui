@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07041D82182A9F4C00DFCB64 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07041D81182A9F4C00DFCB64 /* CoreLocation.framework */; };
-		07041D84182A9F5800DFCB64 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07041D83182A9F5800DFCB64 /* MapKit.framework */; };
 		074FF5AE182FB93400E032D0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074FF5AD182FB93400E032D0 /* ImageIO.framework */; };
 		074FF5B0182FBDE900E032D0 /* placeholder.gif in Resources */ = {isa = PBXBuildFile; fileRef = 074FF5AF182FBDE900E032D0 /* placeholder.gif */; };
 		074FF5D1182FC1E100E032D0 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 074FF5B5182FC1E100E032D0 /* MKAnnotationView+WebCache.m */; };
@@ -157,8 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				074FF5AE182FB93400E032D0 /* ImageIO.framework in Frameworks */,
-				07041D84182A9F5800DFCB64 /* MapKit.framework in Frameworks */,
-				07041D82182A9F4C00DFCB64 /* CoreLocation.framework in Frameworks */,
 				26A15DF41828AB0700A8B098 /* CoreGraphics.framework in Frameworks */,
 				26A15E2C1828BDCC00A8B098 /* Accounts.framework in Frameworks */,
 				26A15E2A1828AB9E00A8B098 /* Social.framework in Frameworks */,
@@ -364,6 +360,11 @@
 				TargetAttributes = {
 					26A15DED1828AB0700A8B098 = {
 						DevelopmentTeam = R4Y8G583RE;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					26A15E111828AB0700A8B098 = {
 						TestTargetID = 26A15DED1828AB0700A8B098;
@@ -583,6 +584,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Ekitsui;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -601,6 +603,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Ekitsui;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
