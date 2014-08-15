@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Ekitsui copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Ekitsui.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>26996F0D199DF7ED0069C94F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>26A15DED1828AB0700A8B098</key>
 		<dict>
 			<key>primary</key>
