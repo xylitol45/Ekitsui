@@ -14,7 +14,7 @@
 #import "UIImageView+WebCache.h"
 
 @interface TwitterViewController ()
-@property (weak,nonatomic) NSMutableArray* _array;
+@property (weak,nonatomic) NSMutableArray* dataArray;
 @end
 
 @implementation TwitterViewController
@@ -24,7 +24,7 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
-        self._array = nil;
+        self.dataArray = nil;
     }
     return self;
 }
@@ -92,7 +92,7 @@
 {
 
     // Return the number of rows in the section.
-    return [self._array count];
+    return [self.dataArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -103,7 +103,7 @@
     UIWebView *_webView = (UIWebView*) [cell.contentView viewWithTag:2];
 
     
-    NSDictionary *_dict = [self._array objectAtIndex:indexPath.row];
+    NSDictionary *_dict = [self.dataArray objectAtIndex:indexPath.row];
     
 //    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 //    [formatter setTimeStyle:NSDateFormatterFullStyle];
@@ -223,7 +223,7 @@
                          
                          NSDictionary *_dict = [NSJSONSerialization JSONObjectWithData:responseData options:0 error:nil];
                          
-                         self._array = [_dict objectForKey:@"statuses"];
+                         self.dataArray = [_dict objectForKey:@"statuses"];
                          
                          if ([self respondsToSelector:@selector(onReloadTwitterDataFinished)]) {
                              [self performSelectorOnMainThread:@selector(onReloadTwitterDataFinished) withObject:nil waitUntilDone:YES];
