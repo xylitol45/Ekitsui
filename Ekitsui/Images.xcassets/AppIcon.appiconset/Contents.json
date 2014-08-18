@@ -3,19 +3,19 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "名称未設定5.png",
+      "filename" : "29x29.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "名称未設定4.png",
+      "filename" : "80x80.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "名称未設定3.png",
+      "filename" : "120x120.png",
       "scale" : "2x"
     }
   ],

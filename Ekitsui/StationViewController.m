@@ -268,6 +268,8 @@
         cell = [self.tableView cellForRowAtIndexPath:indexPath];
     }
     
+    NSLog(@"%@", cell.textLabel.text);
+    
     // 移動先が持つラベルに選択セルの文字列を設定
     TwitterViewController *_viewController = [segue destinationViewController];
     _viewController.receiveString = cell.textLabel.text;

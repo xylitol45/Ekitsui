@@ -164,7 +164,7 @@
     }
     _webView.scalesPageToFit = NO;
 
-    [_imageView setImageWithURL:[NSURL URLWithString:_profileImageUrl] placeholderImage:[UIImage imageNamed:@"placeholder.gif"] options:SDWebImageCacheMemoryOnly];
+    [_imageView sd_setImageWithURL:[NSURL URLWithString:_profileImageUrl] placeholderImage:[UIImage imageNamed:@"placeholder.gif"] options:SDWebImageCacheMemoryOnly];
 
     
     return cell;
