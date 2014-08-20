@@ -14,7 +14,7 @@
 #import "UIImageView+WebCache.h"
 
 @interface TwitterViewController ()
-@property (weak,nonatomic) NSMutableArray* dataArray;
+@property  NSMutableArray* dataArray;
 @end
 
 @implementation TwitterViewController
@@ -223,7 +223,7 @@
                          
                          NSDictionary *_dict = [NSJSONSerialization JSONObjectWithData:responseData options:0 error:nil];
                          
-                         self.dataArray = [_dict objectForKey:@"statuses"];
+                         self.dataArray =  _dict[@"statuses"] ;
                          
                          if ([self respondsToSelector:@selector(onReloadTwitterDataFinished)]) {
                              [self performSelectorOnMainThread:@selector(onReloadTwitterDataFinished) withObject:nil waitUntilDone:YES];

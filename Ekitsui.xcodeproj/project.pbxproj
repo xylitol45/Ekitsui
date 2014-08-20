@@ -30,6 +30,7 @@
 		076D2D4D18351CBB00271DDC /* search-icon_32x32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 076D2D4C18351CBB00271DDC /* search-icon_32x32px.png */; };
 		076D2D4F18351D6F00271DDC /* database-icon_32x32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 076D2D4E18351D6F00271DDC /* database-icon_32x32px.png */; };
 		076D2D5118351F1900271DDC /* settings-02-icon_32x32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 076D2D5018351F1900271DDC /* settings-02-icon_32x32px.png */; };
+		0792D81019A4EBCE0052D326 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0792D80E19A4EBCE0052D326 /* NSData+ImageContentType.m */; };
 		07F87956182BE1BC00307148 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F87955182BE1BC00307148 /* MapViewController.m */; };
 		267F9EDF182CD57C00A4AF38 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F9EDE182CD57C00A4AF38 /* CustomAnnotation.m */; };
 		267F9EE2182CF19A00A4AF38 /* StationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F9EE1182CF19A00A4AF38 /* StationViewController.m */; };
@@ -109,6 +110,8 @@
 		076D2D4C18351CBB00271DDC /* search-icon_32x32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-icon_32x32px.png"; sourceTree = "<group>"; };
 		076D2D4E18351D6F00271DDC /* database-icon_32x32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database-icon_32x32px.png"; sourceTree = "<group>"; };
 		076D2D5018351F1900271DDC /* settings-02-icon_32x32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-02-icon_32x32px.png"; sourceTree = "<group>"; };
+		0792D80E19A4EBCE0052D326 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		0792D80F19A4EBCE0052D326 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		07F87954182BE1BC00307148 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		07F87955182BE1BC00307148 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		267F9EDD182CD57C00A4AF38 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 		074FF5B3182FC1E100E032D0 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				0792D80E19A4EBCE0052D326 /* NSData+ImageContentType.m */,
+				0792D80F19A4EBCE0052D326 /* NSData+ImageContentType.h */,
 				074FF5B4182FC1E100E032D0 /* MKAnnotationView+WebCache.h */,
 				074FF5B5182FC1E100E032D0 /* MKAnnotationView+WebCache.m */,
 				074FF5B6182FC1E100E032D0 /* NSData+GIF.h */,
@@ -436,6 +441,7 @@
 				074FF5D7182FC1E100E032D0 /* SDWebImageDownloaderOperation.m in Sources */,
 				07F87956182BE1BC00307148 /* MapViewController.m in Sources */,
 				074FF5D2182FC1E100E032D0 /* NSData+GIF.m in Sources */,
+				0792D81019A4EBCE0052D326 /* NSData+ImageContentType.m in Sources */,
 				074FF5DC182FC1E100E032D0 /* UIImage+MultiFormat.m in Sources */,
 				26A15DFE1828AB0700A8B098 /* main.m in Sources */,
 				0725E31819A2562400BA0185 /* UIImageView+HighlightedWebCache.m in Sources */,
