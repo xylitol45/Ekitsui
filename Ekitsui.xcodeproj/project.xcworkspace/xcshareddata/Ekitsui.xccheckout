@@ -12,22 +12,34 @@
 	<dict>
 		<key>7B89DF1D-8DCF-47A6-AF7E-A7011CDB7A28</key>
 		<string>https://github.com/xylitol45/Ekitsui.git</string>
+		<key>A2FE02F77651455407F96AC71149A73EEB9EAC93</key>
+		<string>https://github.com/xylitol45/Ekitsui.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Ekitsui.xcodeproj/project.xcworkspace</string>
+	<string>Ekitsui.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7B89DF1D-8DCF-47A6-AF7E-A7011CDB7A28</key>
+		<string>../.. (1)</string>
+		<key>A2FE02F77651455407F96AC71149A73EEB9EAC93</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/xylitol45/Ekitsui.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7B89DF1D-8DCF-47A6-AF7E-A7011CDB7A28</string>
+	<string>A2FE02F77651455407F96AC71149A73EEB9EAC93</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A2FE02F77651455407F96AC71149A73EEB9EAC93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Ekitsui</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
