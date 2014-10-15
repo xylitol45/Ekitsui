@@ -362,7 +362,7 @@
 				ORGANIZATIONNAME = "セラフ";
 				TargetAttributes = {
 					26A15DED1828AB0700A8B098 = {
-						DevelopmentTeam = R4Y8G583RE;
+						DevelopmentTeam = 23HGCW7W89;
 						SystemCapabilities = {
 							com.apple.iOS = {
 								enabled = 0;
