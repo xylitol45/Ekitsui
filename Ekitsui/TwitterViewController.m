@@ -62,7 +62,6 @@
     NSMutableArray *_array2 = [[NSMutableArray alloc] initWithObjects:self.title, nil] ;
     [_array2 addObjectsFromArray:_array];
     
-    
     [_array2 writeToFile:dataPath atomically:YES];
     
     
