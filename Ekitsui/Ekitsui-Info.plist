@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>jp.co.srp.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.kick55.a.ekitsui</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
