@@ -217,7 +217,7 @@
                                                                 parameters:params];
                      [request setAccount:[accountArray objectAtIndex:0]];
                      [request performRequestWithHandler:^(NSData *responseData, NSHTTPURLResponse *urlResponse, NSError *error) {
-                         NSLog(@"responseData=%@", [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding]);
+                         // NSLog(@"responseData=%@", [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding]);
                          
                          
                          NSDictionary *_dict = [NSJSONSerialization JSONObjectWithData:responseData options:0 error:nil];

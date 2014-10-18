@@ -125,7 +125,7 @@
 //        return [self.prefArray count];
 //    }
     
-    NSLog(@"numberOfRowsInSection");
+//    NSLog(@"numberOfRowsInSection");
     
     if (tableView != self.searchDisplayController.searchResultsTableView) {
         return [self.prefArray count];
@@ -140,7 +140,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     
-    NSLog(@"numberOfRowsInSection");
+ //   NSLog(@"numberOfRowsInSection");
     
     // NSArray *_stationArray = nil;
     NSDictionary *_dict = nil;
@@ -172,7 +172,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"cellForRowAtIndexPath");
+//    NSLog(@"cellForRowAtIndexPath");
     
     
     static NSString *CellIdentifier = @"StationCell";
@@ -210,7 +210,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     
-    NSLog(@"titleForHeaderInSection");
+//    NSLog(@"titleForHeaderInSection");
 
     
 //    if (self.prefArray!=nil){
@@ -248,7 +248,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-       NSLog(@"prepareForSegue");
+    //   NSLog(@"prepareForSegue");
     
     // どのセクションの何行目が選択されたかでセルを取得
     UITableViewCell *cell;
@@ -268,7 +268,7 @@
         cell = [self.tableView cellForRowAtIndexPath:indexPath];
     }
     
-    NSLog(@"%@", cell.textLabel.text);
+    // NSLog(@"%@", cell.textLabel.text);
     
     // 移動先が持つラベルに選択セルの文字列を設定
     TwitterViewController *_viewController = [segue destinationViewController];
@@ -279,7 +279,7 @@
 //TableViewのインデックスリストに表示させたい文字列を設定する。
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
 {    
-    NSLog(@"sectionIndexTitlesForTableView");
+    // NSLog(@"sectionIndexTitlesForTableView");
     
     //インスタンス変数のstrArrayを設定している。
     if (tableView != self.searchDisplayController.searchResultsTableView) {
