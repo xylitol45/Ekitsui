@@ -164,12 +164,8 @@
     _webView.scalesPageToFit = NO;
 
     [_imageView sd_setImageWithURL:[NSURL URLWithString:_profileImageUrl] placeholderImage:[UIImage imageNamed:@"placeholder.gif"] options:SDWebImageCacheMemoryOnly];
-
     
     return cell;
-
-
-    
 }
 
 - (void) onReloadTwitterDataFinished {
